@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NCR BANK BEACONS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="WelcomeUser">Welcome From NCR</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="surname_hint">Second Name</string>
+    <string name="registerButton">Register</string>
+
+</resources>
