@@ -40,11 +40,13 @@ public class MainActivity extends ActionBarActivity {
 		EditText surnameEditText = (EditText) findViewById(R.id.regSurnameBox);
 		String firstname = firstnameEditText.getText().toString();
 		String secondname = surnameEditText.getText().toString();
-		if(firstname != "" && secondname != "")
+		if(firstname.length() == 0)
 		{
-			
-		}else{
-			
+			firstnameEditText.setError("Not a valid first name");
+		}
+		if(secondname.length() == 0)
+		{
+			surnameEditText.setError("Not a valid second name");
 		}
 	}
 }
